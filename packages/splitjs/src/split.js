@@ -489,7 +489,7 @@ const Split = (idsOption, options = {}) => {
         b.style.MozUserSelect = ''
         b.style.pointerEvents = ''
 
-        self.gutter.style.cursor = ''
+        self.gutter.style.cursor = cursor
         self.parent.style.cursor = ''
         document.body.style.cursor = ''
     }
